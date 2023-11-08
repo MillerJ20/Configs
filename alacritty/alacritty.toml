@@ -1,0 +1,120 @@
+live_config_reload = true
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "0x475258"
+red = "0xe67e80"
+green = "0xa7c080"
+yellow = "0xdbbc7f"
+blue = "0x7fbbb3"
+magenta = "0xd699b6"
+cyan = "0x83c092"
+white= "0xd3c6aa"
+
+[colors.cursor]
+cursor = "0xa7c080"
+text = "0xd3c6aa"
+
+[colors.normal]
+black = "0x475258"
+red = "0xe67e80"
+green = "0xa7c080"
+yellow = "0xdbbc7f"
+blue = "0x7fbbb3"
+magenta = "0xd699b6"
+cyan = "0x83c092"
+white= "0xd3c6aa"
+
+
+[colors.primary]
+background = "0x2d353b"
+foreground = "0xd3c6aa"
+
+[cursor]
+style = "Underline"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 11
+
+[font.bold]
+family = "FiraCode Nerd Font Mono"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font Mono"
+
+[font.italic]
+family = "FiraCode Nerd Font Mono"
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "PasteSelection"
+key = "Insert"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[shell]
+args = ["--login"]
+program = "/usr/bin/fish"
+
+[window]
+decorations = "full"
+decorations_theme_variant = "Dark"
+dynamic_padding = true
+opacity = 0.85
+title = "Alacritty@Garuda"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.dimensions]
+columns = 100
+lines = 30
